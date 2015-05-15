@@ -1,0 +1,106 @@
+
+#wrapper {
+    width: 75%;
+    min-height: 1000px;
+    height: auto;
+    margin: 0 20%;
+    border: 1px #CCC solid;
+    /*filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.7));*/
+    box-shadow: 5px 5px 10px #999;
+    background-color: #F8F8F8;
+}
+
+#navigator {
+    width: 15%;
+    height: auto;
+    margin: 5% 1%;
+    border: 1px #CCC solid;
+    /*filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.7));*/
+    box-shadow: 4px 4px 10px #999;
+    position: fixed;
+}
+
+#nav_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px #555 solid;
+}
+
+#nav_links {
+    float: left;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 100%;
+    background: #999;
+    color: #111;
+    font-weight: bold;
+    padding: 4px;
+    border-top: 1px #555 solid;
+    border-bottom: 1px #555 solid;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    background-color: #AAA;
+}
+
+#W3C_valid {
+    position: absolute;
+    top: 130%;
+    left: 2%;
+}
+
+#header {
+    width: 100%;
+    height: 15%;
+    border-bottom: 1px #CCC solid;
+    background-color: #FFF;
+}
+
+#head_title {
+    width: 500px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+#mid {
+    width: 100%;
+    height: 75%;
+}
+
+#text {
+    width: 95%;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 2.5%;
+}
+
+#intro {
+    font-weight: bold;
+    margin: 2% 0;
+}
+
+.pic_row_1 {
+    max-width: 400px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    min-width: 200px;
+    min-height: 150px;
+    display: inline-block;
+    margin: 0 3%;
+    border: 1px #777 solid;
+}
+
+#foot {
+    width: 100%;
+    height: 10%;
+    background-color: #FFF;
+    border-top: 1px #CCC solid;
+}
+
