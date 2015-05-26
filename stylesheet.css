@@ -15,9 +15,9 @@ body {
 }
 
 #navigator {
-    width: 15%;
+    width: 12%;
     height: auto;
-    margin: 5% 1%;
+    margin: 5% 2%;
     border: 1px #CCC solid;
     /*filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.7));*/
     /*box-shadow: 4px 4px 10px #999;*/
@@ -57,7 +57,7 @@ a:hover, a:active {
 #W3C_valid {
     position: absolute;
     left: 10px;
-    bottom: -500px;
+    bottom: -1000px;
 }
 
 #header {
@@ -68,8 +68,10 @@ a:hover, a:active {
 }
 
 #head_title {
-    width: 31.25%;
-    height: 9.375%;
+    width: 41.6666666%;
+    height: 12.5%;
+    /*width: 31.25%;
+    height: 9.375%;*/
     margin: 0 auto;
 }
 
@@ -86,19 +88,25 @@ a:hover, a:active {
 
 #intro {
     font-weight: bold;
+    font-size: 1.05em;
     margin: 3% 0;
 }
 
-.pic_row_1 {
-    max-width: 400px;
-    max-height: 300px;
-    width: auto;
-    height: auto;
-    /*min-width: 200px;
-    min-height: 150px;*/
-    display: inline-block;
-    margin: 0 4%;
+#bannerImg {
+    margin: 0 auto;
     border: 1px #777 solid;
+}
+
+#timImg {
+    float: right;
+    border: 1px #777 solid;
+    margin-left: 20px;
+}
+
+#mlawImg {
+    float: right;
+    border: 1px #777 solid;
+    margin-left: 20px;
 }
 
 #foot {
@@ -108,3 +116,40 @@ a:hover, a:active {
     border-top: 1px #CCC solid;
 }
 
+#Tabell {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1em;
+}
+
+.bitnbyteTabell {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+table {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+
+.topRow {
+    background-color: #BBB;
+}
+
+.bottomRow {
+    background-color: #FFFFFF;
+}
+
+td {
+    width: 50px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    text-align: center;
+}
+
+.kallList {
+    background-color: aliceblue;
+}
