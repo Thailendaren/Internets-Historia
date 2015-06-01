@@ -10,7 +10,7 @@ body {
     border: 1px #CCC solid;
     /*filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.7));*/
     box-shadow: 5px 5px 10px #999;
-    background-color: #F8F8F8;
+    background-color: #EAEAEA;
 }
 
 #navigator {
